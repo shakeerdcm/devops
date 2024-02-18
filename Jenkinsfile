@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Hello") {
             steps {
-                echo 'Hello World'
+                echo 'Hello, Sending Commit request from git hub webhook'
                 sh "ls -lrth"
             }
         }
